@@ -1,0 +1,8 @@
+streamlit
+langchain
+openai
+faiss-cpu
+wikipedia
+pypdf
+langchain-community
+tiktoken
