@@ -35,17 +35,16 @@ This project implements a simple yet powerful Retrieval-Augmented Generation (RA
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/rag-multi-agent-assistant.git
 cd rag-multi-agent-assistant
 
 2. Create and Activate a Virtual Environment
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-3. Install Dependencies
+
+4. Install Dependencies
 bash
 Copy
 Edit
@@ -53,8 +52,6 @@ pip install -r requirements.txt
 Sample requirements.txt:
 
 text
-Copy
-Edit
 langchain
 langchain-groq
 openai
@@ -62,19 +59,18 @@ streamlit
 faiss-cpu
 wikipedia
 python-dotenv
+
 4. Add Environment Variables
 Create a .env file in the root directory:
 
-env
-Copy
-Edit
+
 OPENAI_API_KEY=your_openai_api_key
 GROQ_API_KEY=your_groq_api_key
+
 🚀 Running the App
-bash
-Copy
-Edit
+
 streamlit run app.py
+
 Upload a PDF and ask questions like:
 
 "What are the specs of the product?"
